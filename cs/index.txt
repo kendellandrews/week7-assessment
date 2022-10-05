@@ -1,3 +1,22 @@
 Results for the extraLargeArray
 insert 814.004395 ms
 append 11.584252 ms
+
+Results for the largeArray
+append 539.427 μs
+insert 6.415025 ms
+
+Results for the mediumArray
+append 188.683 μs
+insert 193.091 μs
+
+Results for the smallArray
+append 185.094 μs
+insert 98.354 μs
+kendellandrews@Kendel
+
+Results for the tinyArray
+append 95.699 μs
+insert 36.831 μs
+
+It seems like .push is an exponential curve. When your project is scaled, each addition makes much longer than if the same addition was added before it was largly scaled. And .shift seems like its a pretty constant increase for each addition. 
