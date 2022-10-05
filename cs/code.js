@@ -13,6 +13,7 @@ for(let i = 0; i < array.length; i++){
 
 console.log(addsToZero)
 
+// O(n) 
 
 // Question 2
 
@@ -34,6 +35,8 @@ const hasUniqueChars = (word) => {
   
   console.log(hasUniqueChars('Monnday'))
 
+  // O(n)
+
   // Question 3
   function pangram(string){
     let strArr = string.toLowerCase();
@@ -47,6 +50,8 @@ const hasUniqueChars = (word) => {
     return true;
   }
 
+  //O(1)
+
   // Question 4
   function findLongestWord(str) {
     var strSplit = str.split(' ');
@@ -58,3 +63,5 @@ const hasUniqueChars = (word) => {
     }
     return longestWord;
   }
+
+  // O(n)
